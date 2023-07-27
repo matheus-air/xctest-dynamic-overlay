@@ -1,7 +1,7 @@
 // MARK: (Parameters) -> Result
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -13,7 +13,7 @@ public func XCTUnimplemented<Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -26,7 +26,7 @@ public func XCTUnimplemented<Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -38,7 +38,7 @@ public func XCTUnimplemented<A, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -51,7 +51,7 @@ public func XCTUnimplemented<A, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -63,7 +63,7 @@ public func XCTUnimplemented<A, B, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -76,7 +76,7 @@ public func XCTUnimplemented<A, B, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -88,7 +88,7 @@ public func XCTUnimplemented<A, B, C, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -101,7 +101,7 @@ public func XCTUnimplemented<A, B, C, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -113,7 +113,7 @@ public func XCTUnimplemented<A, B, C, D, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -126,7 +126,7 @@ public func XCTUnimplemented<A, B, C, D, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -138,7 +138,7 @@ public func XCTUnimplemented<A, B, C, D, E, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -152,7 +152,7 @@ public func XCTUnimplemented<A, B, C, D, E, Result>(
 
 // MARK: (Parameters) throws -> Result
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -162,7 +162,7 @@ public func XCTUnimplemented<Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -172,7 +172,7 @@ public func XCTUnimplemented<A, Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -182,7 +182,7 @@ public func XCTUnimplemented<A, B, Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -192,7 +192,7 @@ public func XCTUnimplemented<A, B, C, Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -202,7 +202,7 @@ public func XCTUnimplemented<A, B, C, D, Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -215,7 +215,7 @@ public func XCTUnimplemented<A, B, C, D, E, Result>(
 // MARK: (Parameters) async -> Result
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -227,7 +227,7 @@ public func XCTUnimplemented<Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -249,7 +249,7 @@ public func XCTUnimplemented<Result>(
 ///     error instead.
 /// - Returns: A closure that generates a failure when invoked.
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -261,7 +261,7 @@ public func XCTUnimplemented<A, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -274,7 +274,7 @@ public func XCTUnimplemented<A, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -286,7 +286,7 @@ public func XCTUnimplemented<A, B, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -299,7 +299,7 @@ public func XCTUnimplemented<A, B, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -311,7 +311,7 @@ public func XCTUnimplemented<A, B, C, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -324,7 +324,7 @@ public func XCTUnimplemented<A, B, C, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -336,7 +336,7 @@ public func XCTUnimplemented<A, B, C, D, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -349,7 +349,7 @@ public func XCTUnimplemented<A, B, C, D, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -361,7 +361,7 @@ public func XCTUnimplemented<A, B, C, D, E, Result>(
 }
 
 @_disfavoredOverload
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -375,7 +375,7 @@ public func XCTUnimplemented<A, B, C, D, E, Result>(
 
 // MARK: (Parameters) async throws -> Result
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -390,7 +390,7 @@ public func XCTUnimplemented<Result>(
 /// - Parameter description: An optional description of the unimplemented closure, for inclusion in
 ///   test results.
 /// - Returns: A closure that generates a failure and throws an error when invoked.
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -400,7 +400,7 @@ public func XCTUnimplemented<A, Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -410,7 +410,7 @@ public func XCTUnimplemented<A, B, Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -420,7 +420,7 @@ public func XCTUnimplemented<A, B, C, Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")
@@ -430,7 +430,7 @@ public func XCTUnimplemented<A, B, C, D, Result>(
   unimplemented(description())
 }
 
-@available(iOS, deprecated: 9999, renamed: "unimplemented")
+@available(iOS, introduced: 13, deprecated: 9999, renamed: "unimplemented")
 @available(macOS, deprecated: 9999, renamed: "unimplemented")
 @available(tvOS, deprecated: 9999, renamed: "unimplemented")
 @available(watchOS, deprecated: 9999, renamed: "unimplemented")

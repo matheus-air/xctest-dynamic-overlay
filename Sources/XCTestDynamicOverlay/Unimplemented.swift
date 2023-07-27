@@ -1,5 +1,6 @@
 // MARK: (Parameters) -> Result
 
+@available(iOS 13.0, *)
 public func unimplemented<Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -12,6 +13,7 @@ public func unimplemented<Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -27,6 +29,7 @@ public func unimplemented<Result>(
   }
 }
 
+@available(iOS 13.0, *)
 @_disfavoredOverload
 public func unimplemented<Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
@@ -38,6 +41,7 @@ public func unimplemented<Result>(
   return placeholder()
 }
 
+@available(iOS 13.0, *)
 @_disfavoredOverload
 public func unimplemented<Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
@@ -52,6 +56,7 @@ public func unimplemented<Result>(
   return placeholder
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -64,6 +69,7 @@ public func unimplemented<A, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -79,6 +85,7 @@ public func unimplemented<A, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -91,6 +98,7 @@ public func unimplemented<A, B, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -106,6 +114,7 @@ public func unimplemented<A, B, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -118,6 +127,7 @@ public func unimplemented<A, B, C, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -133,6 +143,7 @@ public func unimplemented<A, B, C, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -145,6 +156,7 @@ public func unimplemented<A, B, C, D, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -160,6 +172,7 @@ public func unimplemented<A, B, C, D, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, E, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -172,6 +185,7 @@ public func unimplemented<A, B, C, D, E, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, E, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -189,6 +203,7 @@ public func unimplemented<A, B, C, D, E, Result>(
 
 // MARK: (Parameters) throws -> Result
 
+@available(iOS 13.0, *)
 public func unimplemented<Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -201,6 +216,7 @@ public func unimplemented<Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -213,6 +229,7 @@ public func unimplemented<A, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -225,6 +242,7 @@ public func unimplemented<A, B, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -237,6 +255,7 @@ public func unimplemented<A, B, C, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -249,6 +268,7 @@ public func unimplemented<A, B, C, D, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, E, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -263,6 +283,7 @@ public func unimplemented<A, B, C, D, E, Result>(
 
 // MARK: (Parameters) async -> Result
 
+@available(iOS 13.0, *)
 public func unimplemented<Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -275,6 +296,7 @@ public func unimplemented<Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -299,6 +321,7 @@ public func unimplemented<Result>(
 ///     default value (like `()` for `Void`) cannot be returned, calling the closure will fatal
 ///     error instead.
 /// - Returns: A closure that generates a failure when invoked.
+@available(iOS 13.0, *)
 public func unimplemented<A, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -311,6 +334,7 @@ public func unimplemented<A, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -326,6 +350,7 @@ public func unimplemented<A, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -338,6 +363,7 @@ public func unimplemented<A, B, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -353,6 +379,7 @@ public func unimplemented<A, B, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -365,6 +392,7 @@ public func unimplemented<A, B, C, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -380,6 +408,7 @@ public func unimplemented<A, B, C, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -392,6 +421,7 @@ public func unimplemented<A, B, C, D, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -407,6 +437,7 @@ public func unimplemented<A, B, C, D, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, E, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   placeholder: @autoclosure @escaping @Sendable () -> Result,
@@ -419,6 +450,7 @@ public func unimplemented<A, B, C, D, E, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, E, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   file: StaticString = #file,
@@ -436,6 +468,7 @@ public func unimplemented<A, B, C, D, E, Result>(
 
 // MARK: (Parameters) async throws -> Result
 
+@available(iOS 13.0, *)
 public func unimplemented<Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -453,6 +486,7 @@ public func unimplemented<Result>(
 /// - Parameter description: An optional description of the unimplemented closure, for inclusion in
 ///   test results.
 /// - Returns: A closure that generates a failure and throws an error when invoked.
+@available(iOS 13.0, *)
 public func unimplemented<A, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -465,6 +499,7 @@ public func unimplemented<A, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -477,6 +512,7 @@ public func unimplemented<A, B, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -489,6 +525,7 @@ public func unimplemented<A, B, C, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -501,6 +538,7 @@ public func unimplemented<A, B, C, D, Result>(
   }
 }
 
+@available(iOS 13.0, *)
 public func unimplemented<A, B, C, D, E, Result>(
   _ description: @autoclosure @escaping @Sendable () -> String = "",
   fileID: StaticString = #fileID,
@@ -518,6 +556,7 @@ public struct UnimplementedFailure: Error {
   public let description: String
 }
 
+@available(iOS 13.0, *)
 func _fail(_ description: String, _ parameters: Any?, fileID: StaticString, line: UInt) {
   var debugDescription = """
      …

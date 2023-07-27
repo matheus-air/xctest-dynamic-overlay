@@ -1,5 +1,6 @@
 import Foundation
 
+@available(iOS 12.0, *)
 @_transparent
 @inline(__always)
 @usableFromInline

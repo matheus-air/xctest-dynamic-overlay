@@ -1,5 +1,6 @@
 import Foundation
 
+@available(iOS 13.0, *)
 public struct XCTFailContext {
   @TaskLocal public static var current: Self?
 
@@ -22,7 +23,8 @@ public struct XCTFailContext {
     ///
     /// - Parameter message: An optional description of the assertion, for inclusion in test
     ///   results.
-    @_disfavoredOverload
+@available(iOS 13.0, *)
+@_disfavoredOverload
     public func XCTFail(_ message: String = "") {
       if let context = XCTFailContext.current {
         XCTFail(message, file: context.file, line: context.line)
